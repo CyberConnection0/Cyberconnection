@@ -16,7 +16,7 @@ let nome = prompt
 if (nome === '7248282') {
     alert('Olá Sagaz, Acesso liberado a voce sem rastreamento!');
   } else {
-alert ("RASTREIO ATIVADO! Analisamos e detectamos que voce nao é o programador do site, Entao favor respeitar as leis aplicadas no site!!")
+alert ("RASTREIO ATIVADO! Detectamos que você não é o programador. Seu endereço IP foi registrado para fins de segurança e será compartilhado com as autoridades competentes, se necessário, Entao favor respeitar as leis aplicadas no site!!")
   };
 function closePrivacyNotification() {
     var privacyNotification = document.getElementById('privacy-notification');
