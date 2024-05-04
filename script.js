@@ -1,3 +1,10 @@
+let nome = prompt
+("Digite o codigo de acesso!");
+if (nome === '7248282') {
+    alert('Olá Sagaz, Acesso liberado a voce sem rastreamento!');
+  } else {
+alert ("RASTREIO ATIVADO! Analisamos e detectamos que voce nao é o programador do site, Entao favor respeitar as leis aplicadas no site!!")
+  };
 function closePrivacyNotification() {
     var privacyNotification = document.getElementById('privacy-notification');
     privacyNotification.style.display = 'none';
