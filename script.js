@@ -1,3 +1,16 @@
+// Função para obter o endereço IP do visitante
+function getIP(callback) {
+    fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => callback(data.ip))
+    .catch(error => console.error('Ocorreu um erro ao obter o endereço IP:', error));
+}
+// Uso da função para obter e exibir o endereço IP
+getIP(function(ip) {
+    console.log('Endereço IP do visitante:', ip);
+    // Aqui você pode enviar o IP para o seu servidor ou fazer qualquer outra coisa que desejar com ele
+});
+
 let nome = prompt
 ("Digite o codigo de acesso!");
 if (nome === '7248282') {
